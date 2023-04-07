@@ -5,8 +5,11 @@ from models import db, User, Game, Review
 
 
 
-if __name__ == '__main__':
-    
-    db.init_app(app)
-    with app.app_context():
-        import ipdb; ipdb.set_trace()
+import ipdb; ipdb.set_trace()
+
+# if __name__ == '__main__':
+    # 
+    # db.init_app(app)
+    # with app.app_context():
+        # 
+# 
